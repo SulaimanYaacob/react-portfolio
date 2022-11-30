@@ -20,6 +20,7 @@ import {
   IoLogoElectron,
   IoBarChart,
   IoVideocam,
+  IoCamera,
 } from "react-icons/io5";
 import { FaGlobeAsia, FaHandHoldingHeart } from "react-icons/fa";
 import {
@@ -48,6 +49,8 @@ import {
   SiStripe,
   SiPaypal,
   SiFirebase,
+  SiCplusplus,
+  SiFigma,
 } from "react-icons/si";
 import { CgPiano } from "react-icons/cg";
 import {
@@ -62,7 +65,7 @@ import { GrCodeSandbox } from "react-icons/gr";
 import { TbLetterS, TbWebhook } from "react-icons/tb";
 
 export const heading = {
-  name: "Ibrahim Yaacob",
+  name: "Sulaiman Yaacob",
   title: "Full-Stack Typescript Developer",
 };
 
@@ -70,14 +73,14 @@ export const contactsData = [
   {
     icon: IoMail,
     label: "Email",
-    value: "ibrahimyaacob92@yahoo.com",
-    link: "mailto:ibrahimyaacob92@yahoo.com",
+    value: "sulaimanyaacob99@gmail.com",
+    link: "mailto:sulaimanyaacob99@gmail.com",
   },
   {
     icon: AiTwotonePhone,
     label: "Phone",
-    value: "(+60)196099788",
-    link: "https://api.whatsapp.com/send?phone=60196099788",
+    value: "(+60)167167638",
+    link: "https://api.whatsapp.com/send?phone=60167167638",
   },
   {
     icon: IoLocationSharp,
@@ -87,54 +90,54 @@ export const contactsData = [
   },
 ];
 export const links = [
-  {
-    icon: FaGlobeAsia,
-    label: "Portfolio",
-    value: "ibrahimyaacob.xyz",
-    link: "https://ibrahimyaacob.xyz/",
-  },
+  // {
+  //   icon: FaGlobeAsia,
+  //   label: "Portfolio",
+  //   value: "ibrahimyaacob.xyz",
+  //   link: "https://ibrahimyaacob.xyz/",
+  // },
   {
     icon: AiFillGithub,
     label: "GitHub",
-    value: "github.com/ibrahimyaacob92",
-    link: "https://github.com/ibrahimyaacob92",
+    value: "github.com/SulaimanYaacob",
+    link: "https://github.com/SulaimanYaacob",
     // value: "https://bit.ly/2SSBeH7",
   },
-  {
-    icon: AiFillLinkedin,
-    label: "LinkedIn",
-    value: "linkedin.com/in/ibrahimyaacob",
-    link: "https://www.linkedin.com/in/ibrahim-yaacob",
-    // value: "https://bit.ly/3tYkJpQ",
-  },
+  // {
+  //   icon: AiFillLinkedin,
+  //   label: "LinkedIn",
+  //   value: "linkedin.com/in/ibrahimyaacob",
+  //   link: "https://www.linkedin.com/in/ibrahim-yaacob",
+  //   // value: "https://bit.ly/3tYkJpQ",
+  // },
 ];
 
 // high level only
 export const education = {
-  course: "BSc Mechanical Engineering",
+  course: "Software Engineering",
   university: "University Technology Malaysia",
-  cgpa: "3.64",
-  period: "Sept 2011 - Apr 2015",
+  cgpa: undefined,
+  period: "Oct 2019 - Present",
   location: "Johor, MY",
 };
 
 export const languages = [
   {
     name: "TypeScript",
-    years: "3",
+    years: "1",
     icon: SiTypescript,
     iconSize: "18px",
   },
   {
     name: "JavaScript",
-    years: "4",
+    years: "2",
     icon: IoLogoJavascript,
     iconSize: "22px",
   },
   {
-    name: "Python",
-    years: "3",
-    icon: IoLogoPython,
+    name: "C++",
+    years: "2",
+    icon: SiCplusplus,
     iconSize: "18px",
   },
 ];
@@ -142,168 +145,50 @@ export const languages = [
 export const technologies = [
   {
     name: "ReactJS",
-    years: "3 Years",
+    years: "2 Years",
     icon: IoLogoReact,
     iconSize: "18px",
   },
   {
     name: "NextJS",
-    years: "3 Years",
+    years: "2 Years",
     icon: SiNextdotjs,
     iconSize: "18px",
   },
   {
     name: "NodeJS",
-    years: "3 Years",
+    years: "2 Years",
     icon: IoLogoNodejs,
     iconSize: "18px",
   },
   {
-    name: "TRPC",
+    name: "tRPC",
     years: "1 Years",
     icon: SiCodesandbox,
     iconSize: "18px",
   },
   {
-    name: "GraphQL",
-    years: "1 Years",
-    icon: SiGraphql,
-    iconSize: "18px",
-  },
-
-  {
-    name: "PrismaJS",
-    years: "3 Years",
-    icon: SiPrisma,
-    iconSize: "18px",
-  },
-
-  {
-    name: "Apollo",
-    years: "2 Years",
-    icon: SiApollographql,
-    iconSize: "18px",
-  },
-  {
-    name: "React-Query",
-    years: "3 Years",
-    icon: IoLogoReact,
-    iconSize: "18px",
-  },
-  {
-    name: "Redux (RTK)",
-    years: "2 Years",
-    icon: SiRedux,
-    iconSize: "18px",
-  },
-  {
-    name: "Zustand",
-    years: "2 Years",
-    icon: GiBearHead,
-    iconSize: "18px",
-  },
-  {
-    name: "Formik/RHF",
-    years: "1 Years",
-    icon: SiGraphql,
-    iconSize: "18px",
-  },
-  {
-    name: "GQL-Codegen",
-    years: "1 Years",
-    icon: SiGraphql,
-    iconSize: "18px",
-  },
-  {
-    name: "Nivo",
-    years: "1 Years",
-    icon: AiOutlineDotChart,
-    iconSize: "18px",
-  },
-
-  {
-    name: "Sanity.io",
-    years: "3 Years",
-    icon: TbLetterS,
-    iconSize: "18px",
-  },
-  {
     name: "Git",
-    years: "3 Years",
+    years: "2 Years",
     icon: IoLogoGithub,
     iconSize: "18px",
   },
   {
     name: "CSS",
-    years: "3 Years",
+    years: "2 Years",
     icon: IoLogoCss3,
     iconSize: "18px",
   },
   {
     name: "MUI/Mantine",
-    years: "3 Years",
+    years: "1 Years",
     icon: SiMaterialui,
     iconSize: "18px",
   },
   {
     name: "PostgreSQL",
-    years: "3 Years",
-    icon: SiPostgresql,
-    iconSize: "18px",
-  },
-
-  {
-    name: "MongoDB",
-    years: "3 Years",
-    icon: SiMongodb,
-    iconSize: "18px",
-  },
-  {
-    name: "Hasura",
-    years: "3 Years",
-    icon: SiHasura,
-    iconSize: "18px",
-  },
-  {
-    name: "Firebase",
-    years: "3 Years",
-    icon: SiFirebase,
-    iconSize: "18px",
-  },
-  {
-    name: "Cypress",
-    years: "3 Years",
-    icon: SiCypress,
-    iconSize: "18px",
-  },
-  {
-    name: "ElectronJS",
-    years: "3 Years",
-    icon: IoLogoElectron,
-    iconSize: "18px",
-  },
-  {
-    name: "Ubuntu",
-    years: "3 Years",
-    icon: SiUbuntu,
-    iconSize: "18px",
-  },
-  {
-    name: "MS Azure",
-    years: "3 Years",
-    icon: SiMicrosoftazure,
-    iconSize: "18px",
-  },
-  // {
-  //   name: "Redis",
-  //   years: "3 Years",
-  //   icon: SiRedis,
-  //   iconSize: "18px",
-  // },
-  {
-    name: "Socket.io",
     years: "1 Years",
-    icon: SiSocketdotio,
+    icon: SiPostgresql,
     iconSize: "18px",
   },
   {
@@ -313,53 +198,177 @@ export const technologies = [
     iconSize: "18px",
   },
   {
-    name: "OAuth2",
-    years: "1 Years",
-    icon: SiAuth0,
-    iconSize: "18px",
-  },
-  {
-    name: "Tableau",
-    years: "1 Years",
-    icon: IoLogoTableau,
-    iconSize: "18px",
-  },
-  {
     name: "Excel VBA",
-    years: "3 Years",
+    years: "1 Years",
     icon: SiMicrosoftexcel,
     iconSize: "18px",
   },
   {
-    name: "Atlassian",
-    years: "3 Years",
-    icon: SiAtlassian,
+    name: "PrismaJS",
+    years: "1 Years",
+    icon: SiPrisma,
     iconSize: "18px",
   },
   {
-    name: "Posthog",
-    years: "3 Years",
-    icon: GiHedgehog,
+    name: "Figma",
+    years: "2 Years",
+    icon: SiFigma,
     iconSize: "18px",
   },
-  {
-    name: "Webhook",
-    years: "3 Years",
-    icon: TbWebhook,
-    iconSize: "18px",
-  },
-  {
-    name: "Stripe",
-    years: "3 Years",
-    icon: SiStripe,
-    iconSize: "18px",
-  },
-  {
-    name: "Paypal",
-    years: "3 Years",
-    icon: SiPaypal,
-    iconSize: "18px",
-  },
+  // {
+  //   name: "GraphQL",
+  //   years: "1 Years",
+  //   icon: SiGraphql,
+  //   iconSize: "18px",
+  // },
+
+  // {
+  //   name: "Apollo",
+  //   years: "2 Years",
+  //   icon: SiApollographql,
+  //   iconSize: "18px",
+  // },
+  // {
+  //   name: "React-Query",
+  //   years: "3 Years",
+  //   icon: IoLogoReact,
+  //   iconSize: "18px",
+  // },
+  // {
+  //   name: "Redux (RTK)",
+  //   years: "2 Years",
+  //   icon: SiRedux,
+  //   iconSize: "18px",
+  // },
+  // {
+  //   name: "Zustand",
+  //   years: "2 Years",
+  //   icon: GiBearHead,
+  //   iconSize: "18px",
+  // },
+  // {
+  //   name: "Formik/RHF",
+  //   years: "1 Years",
+  //   icon: SiGraphql,
+  //   iconSize: "18px",
+  // },
+  // {
+  //   name: "GQL-Codegen",
+  //   years: "1 Years",
+  //   icon: SiGraphql,
+  //   iconSize: "18px",
+  // },
+  // {
+  //   name: "Nivo",
+  //   years: "1 Years",
+  //   icon: AiOutlineDotChart,
+  //   iconSize: "18px",
+  // },
+
+  // {
+  //   name: "Sanity.io",
+  //   years: "3 Years",
+  //   icon: TbLetterS,
+  //   iconSize: "18px",
+  // },
+
+  // {
+  //   name: "MongoDB",
+  //   years: "3 Years",
+  //   icon: SiMongodb,
+  //   iconSize: "18px",
+  // },
+  // {
+  //   name: "Hasura",
+  //   years: "3 Years",
+  //   icon: SiHasura,
+  //   iconSize: "18px",
+  // },
+  // {
+  //   name: "Firebase",
+  //   years: "3 Years",
+  //   icon: SiFirebase,
+  //   iconSize: "18px",
+  // },
+  // {
+  //   name: "Cypress",
+  //   years: "3 Years",
+  //   icon: SiCypress,
+  //   iconSize: "18px",
+  // },
+  // {
+  //   name: "ElectronJS",
+  //   years: "3 Years",
+  //   icon: IoLogoElectron,
+  //   iconSize: "18px",
+  // },
+  // {
+  //   name: "Ubuntu",
+  //   years: "3 Years",
+  //   icon: SiUbuntu,
+  //   iconSize: "18px",
+  // },
+  // {
+  //   name: "MS Azure",
+  //   years: "3 Years",
+  //   icon: SiMicrosoftazure,
+  //   iconSize: "18px",
+  // },
+  // {
+  //   name: "Redis",
+  //   years: "3 Years",
+  //   icon: SiRedis,
+  //   iconSize: "18px",
+  // },
+  // {
+  //   name: "Socket.io",
+  //   years: "1 Years",
+  //   icon: SiSocketdotio,
+  //   iconSize: "18px",
+  // },
+
+  // {
+  //   name: "OAuth2",
+  //   years: "1 Years",
+  //   icon: SiAuth0,
+  //   iconSize: "18px",
+  // },
+  // {
+  //   name: "Tableau",
+  //   years: "1 Years",
+  //   icon: IoLogoTableau,
+  //   iconSize: "18px",
+  // },
+  // {
+  //   name: "Atlassian",
+  //   years: "3 Years",
+  //   icon: SiAtlassian,
+  //   iconSize: "18px",
+  // },
+  // {
+  //   name: "Posthog",
+  //   years: "3 Years",
+  //   icon: GiHedgehog,
+  //   iconSize: "18px",
+  // },
+  // {
+  //   name: "Webhook",
+  //   years: "3 Years",
+  //   icon: TbWebhook,
+  //   iconSize: "18px",
+  // },
+  // {
+  //   name: "Stripe",
+  //   years: "3 Years",
+  //   icon: SiStripe,
+  //   iconSize: "18px",
+  // },
+  // {
+  //   name: "Paypal",
+  //   years: "3 Years",
+  //   icon: SiPaypal,
+  //   iconSize: "18px",
+  // },
 ];
 
 export const engineering = [
@@ -439,26 +448,26 @@ export const interest = [
     icon: CgPiano,
     iconSize: "18px",
   },
+  // {
+  //   name: "Startup Ideas",
+  //   icon: HiOutlineLightBulb,
+  //   iconSize: "22px",
+  // },
   {
-    name: "Startup Ideas",
-    icon: HiOutlineLightBulb,
-    iconSize: "22px",
-  },
-  {
-    name: "Videography",
-    icon: IoVideocam,
+    name: "Photography",
+    icon: IoCamera,
     iconSize: "18px",
   },
-  {
-    name: "Volunteering",
-    icon: FaHandHoldingHeart,
-    iconSize: "18px",
-  },
-  {
-    name: "Cooking",
-    icon: GiCookingPot,
-    iconSize: "20px",
-  },
+  // {
+  //   name: "Volunteering",
+  //   icon: FaHandHoldingHeart,
+  //   iconSize: "18px",
+  // },
+  // {
+  //   name: "Cooking",
+  //   icon: GiCookingPot,
+  //   iconSize: "20px",
+  // },
 ];
 
 export const workExperiences = [

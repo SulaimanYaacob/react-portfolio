@@ -52,9 +52,9 @@ const Resume = () => {
                 <p className="icon-parag">
                   <IoLocationOutline className="accent" /> {education.location}
                 </p>
-                <p className="icon-parag">
+                {/* <p className="icon-parag">
                   <IoTrophyOutline className="accent" /> CGPA: {education.cgpa}
-                </p>
+                </p> */}
               </div>
             </div>
             <div>

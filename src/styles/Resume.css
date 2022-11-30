@@ -133,8 +133,12 @@ h3 {
 .resume .border-left {
   border: solid;
   border-width: 0 0 0 3px;
-  border-image: linear-gradient(to bottom, var(--bullet-point), rgba(255, 255, 255, 0)) 1
-    100%;
+  border-image: linear-gradient(
+      to bottom,
+      var(--bullet-point),
+      rgba(255, 255, 255, 0)
+    )
+    1 100%;
 }
 
 @media print {

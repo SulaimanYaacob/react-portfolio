@@ -117,7 +117,7 @@ export const education = {
   course: "Software Engineering",
   university: "University Technology Malaysia",
   cgpa: undefined,
-  period: "Oct 2019 - Present",
+  period: "Oct 2020 - Present",
   location: "Johor, MY",
 };
 
@@ -198,13 +198,7 @@ export const technologies = [
     iconSize: "18px",
   },
   {
-    name: "Excel VBA",
-    years: "1 Years",
-    icon: SiMicrosoftexcel,
-    iconSize: "18px",
-  },
-  {
-    name: "PrismaJS",
+    name: "Prisma",
     years: "1 Years",
     icon: SiPrisma,
     iconSize: "18px",
@@ -215,160 +209,6 @@ export const technologies = [
     icon: SiFigma,
     iconSize: "18px",
   },
-  // {
-  //   name: "GraphQL",
-  //   years: "1 Years",
-  //   icon: SiGraphql,
-  //   iconSize: "18px",
-  // },
-
-  // {
-  //   name: "Apollo",
-  //   years: "2 Years",
-  //   icon: SiApollographql,
-  //   iconSize: "18px",
-  // },
-  // {
-  //   name: "React-Query",
-  //   years: "3 Years",
-  //   icon: IoLogoReact,
-  //   iconSize: "18px",
-  // },
-  // {
-  //   name: "Redux (RTK)",
-  //   years: "2 Years",
-  //   icon: SiRedux,
-  //   iconSize: "18px",
-  // },
-  // {
-  //   name: "Zustand",
-  //   years: "2 Years",
-  //   icon: GiBearHead,
-  //   iconSize: "18px",
-  // },
-  // {
-  //   name: "Formik/RHF",
-  //   years: "1 Years",
-  //   icon: SiGraphql,
-  //   iconSize: "18px",
-  // },
-  // {
-  //   name: "GQL-Codegen",
-  //   years: "1 Years",
-  //   icon: SiGraphql,
-  //   iconSize: "18px",
-  // },
-  // {
-  //   name: "Nivo",
-  //   years: "1 Years",
-  //   icon: AiOutlineDotChart,
-  //   iconSize: "18px",
-  // },
-
-  // {
-  //   name: "Sanity.io",
-  //   years: "3 Years",
-  //   icon: TbLetterS,
-  //   iconSize: "18px",
-  // },
-
-  // {
-  //   name: "MongoDB",
-  //   years: "3 Years",
-  //   icon: SiMongodb,
-  //   iconSize: "18px",
-  // },
-  // {
-  //   name: "Hasura",
-  //   years: "3 Years",
-  //   icon: SiHasura,
-  //   iconSize: "18px",
-  // },
-  // {
-  //   name: "Firebase",
-  //   years: "3 Years",
-  //   icon: SiFirebase,
-  //   iconSize: "18px",
-  // },
-  // {
-  //   name: "Cypress",
-  //   years: "3 Years",
-  //   icon: SiCypress,
-  //   iconSize: "18px",
-  // },
-  // {
-  //   name: "ElectronJS",
-  //   years: "3 Years",
-  //   icon: IoLogoElectron,
-  //   iconSize: "18px",
-  // },
-  // {
-  //   name: "Ubuntu",
-  //   years: "3 Years",
-  //   icon: SiUbuntu,
-  //   iconSize: "18px",
-  // },
-  // {
-  //   name: "MS Azure",
-  //   years: "3 Years",
-  //   icon: SiMicrosoftazure,
-  //   iconSize: "18px",
-  // },
-  // {
-  //   name: "Redis",
-  //   years: "3 Years",
-  //   icon: SiRedis,
-  //   iconSize: "18px",
-  // },
-  // {
-  //   name: "Socket.io",
-  //   years: "1 Years",
-  //   icon: SiSocketdotio,
-  //   iconSize: "18px",
-  // },
-
-  // {
-  //   name: "OAuth2",
-  //   years: "1 Years",
-  //   icon: SiAuth0,
-  //   iconSize: "18px",
-  // },
-  // {
-  //   name: "Tableau",
-  //   years: "1 Years",
-  //   icon: IoLogoTableau,
-  //   iconSize: "18px",
-  // },
-  // {
-  //   name: "Atlassian",
-  //   years: "3 Years",
-  //   icon: SiAtlassian,
-  //   iconSize: "18px",
-  // },
-  // {
-  //   name: "Posthog",
-  //   years: "3 Years",
-  //   icon: GiHedgehog,
-  //   iconSize: "18px",
-  // },
-  // {
-  //   name: "Webhook",
-  //   years: "3 Years",
-  //   icon: TbWebhook,
-  //   iconSize: "18px",
-  // },
-  // {
-  //   name: "Stripe",
-  //   years: "3 Years",
-  //   icon: SiStripe,
-  //   iconSize: "18px",
-  // },
-  // {
-  //   name: "Paypal",
-  //   years: "3 Years",
-  //   icon: SiPaypal,
-  //   iconSize: "18px",
-  // },
 ];
 
 export const engineering = [
@@ -471,43 +311,43 @@ export const interest = [
 ];
 
 export const workExperiences = [
-  {
-    company: "Purplemana",
-    period: "April 2022 - Present",
-    role: "Sr. Front End Developer",
-    link: "https://purplemana.com",
-    description:
-      "Leading the frontend development for the feature-rich collectible trading card game marketplace with React, Typescript, Apollo GraphQL 3, Hasura and Styled-Components",
-    experiences: [
-      {
-        title: "",
-        points: [
-          "Working with the CEO, backend (Python and Hasura) and frontend engineers to rebuild the site from the Wordpress version covering product listing, marketplace, blogs to admin/merchant tools",
-          "Setup type-safe Graphql Codegen, state-management with Apollo 3, Graphql subscription (websocket) for notification system and other real-time features, Paypal integration, Sanity.io for content management, design system with Styled-Components, Posthog analytics and more..",
-        ],
-      },
-    ],
-  },
-  {
-    company: "Dyson Development Center",
-    period: "Feb 2018 - March 2022",
-    role: "Solution Developer",
-    description:
-      "Working in a team that supports Test Department in developing integrated systems solution to improve the efficiency, quality & security of data handling & practices.",
-    experiences: [
-      {
-        title: "",
-        points: [
-          "Leading, designing and develop an integrated framework to render test-data-collection template from Python Scripts using React, Node, Electron, Redux & MongoDB",
-          "Handles API integration to the Test Request, Asset Management system and MongoDB's Test Data Storage. Also, Using Node's Python-Shell module to run Python Scripts for template initialization and calculation requests",
-          "Asset management system, replicating from Asset Panda, using NextJS, Postgres and Prisma ORM, replicating on-shelf tool, Asset Panda",
-        ],
-      },
-    ],
-  },
+  // {
+  //   company: "Purplemana",
+  //   period: "April 2022 - Present",
+  //   role: "Sr. Front End Developer",
+  //   link: "https://purplemana.com",
+  //   description:
+  //     "Leading the frontend development for the feature-rich collectible trading card game marketplace with React, Typescript, Apollo GraphQL 3, Hasura and Styled-Components",
+  //   experiences: [
+  //     {
+  //       title: "",
+  //       points: [
+  //         "Working with the CEO, backend (Python and Hasura) and frontend engineers to rebuild the site from the Wordpress version covering product listing, marketplace, blogs to admin/merchant tools",
+  //         "Setup type-safe Graphql Codegen, state-management with Apollo 3, Graphql subscription (websocket) for notification system and other real-time features, Paypal integration, Sanity.io for content management, design system with Styled-Components, Posthog analytics and more..",
+  //       ],
+  //     },
+  //   ],
+  // },
+  // {
+  //   company: "Dyson Development Center",
+  //   period: "Feb 2018 - March 2022",
+  //   role: "Solution Developer",
+  //   description:
+  //     "Working in a team that supports Test Department in developing integrated systems solution to improve the efficiency, quality & security of data handling & practices.",
+  //   experiences: [
+  //     {
+  //       title: "",
+  //       points: [
+  //         "Leading, designing and develop an integrated framework to render test-data-collection template from Python Scripts using React, Node, Electron, Redux & MongoDB",
+  //         "Handles API integration to the Test Request, Asset Management system and MongoDB's Test Data Storage. Also, Using Node's Python-Shell module to run Python Scripts for template initialization and calculation requests",
+  //         "Asset management system, replicating from Asset Panda, using NextJS, Postgres and Prisma ORM, replicating on-shelf tool, Asset Panda",
+  //       ],
+  //     },
+  //   ],
+  // },
   {
     company: "Part-Time Freelancing",
-    period: "2019 - Present",
+    period: "2023 - Present",
     role: "Fullstack Developer (FE Focus)",
     description:
       "To build the confidence in web/software, development, I had to take up the freelancing job to gain more experience on how real-life development project works",
@@ -516,24 +356,6 @@ export const workExperiences = [
         title: "AJXB",
         points: [
           "Leading frontend development on a event management app, (similar to Eventbrite) using NextJS, React Query and MantineUI",
-        ],
-      },
-      {
-        title: "PDAX",
-        points: [
-          "Frontend freelance crypto exchange for Philippine using micro-frontend, ReactJS, Styled-Components and Recoil",
-        ],
-      },
-      {
-        title: "InsightTribe",
-        points: [
-          "Work on building WXllspace website, a US-based, platform start-up, that connects building (wall) owner to wall artist. The app uses MERN Stack equipped with Google Map, Mapbox, MailerSend API and AWS S3",
-        ],
-      },
-      {
-        title: "QuestDrive",
-        points: [
-          "Work on admin page system for online game application that initially uses React with TypeScript, Redux Toolkit and MUI",
         ],
       },
     ],
@@ -562,23 +384,9 @@ export const workExperiences = [
 
 export const projects = [
   {
-    title: "Side Projects",
+    title: "University Projects",
     points: [
-      "Keebitcool, Mech Keyboard Social App with T3 Stack (best stack ever!): \nhttps://keebitcool.com",
-      "My Repo is Better than yours, a repo scoring and comparison site: \nhttps://myrepoisbetterthanyours.netlify.app",
-      // "Personal NextJS Boilerplate: \nhttps://miy-next-boilerplate.vercel.app",
-    ],
-  },
-  {
-    title: "Yayasan Peneraju Digital Computing Course 2022",
-    points: [
-      "Four Months course of Digital Leadership and Microsoft Azure Certificates for Administrator, Security Engineer and Solution Architects",
-    ],
-  },
-  {
-    title: "Prior to Dev",
-    points: [
-      "Mechanical Engineer, D&D at manufacturing companies (2015 - 2018)",
+      "Student Welfare, A web-based application for helping students with their necessities. The app is built with T3 Stack: \nhttps://student-welfare.vercel.app/",
     ],
   },
 ];

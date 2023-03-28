@@ -19,6 +19,7 @@ import {
   interest,
   workExperiences,
   projects,
+  certificates,
   // } from "../data/softwareEngineer.js";
 } from "../data/softwareEngineer.js";
 
@@ -199,6 +200,26 @@ const Resume = () => {
                   <p className="header">{project.title}</p>
                   <ul className="border-left">
                     {project.points.map((point) => (
+                      <li> {point} </li>
+                    ))}
+                  </ul>
+                </div>
+              ))}
+            </div>
+          </div>
+          <div style={{ marginTop: "10px" }}>
+            <h1 style={{ marginBottom: "10px" }}>CERTIFICATES</h1>
+            <div
+              style={{
+                rowGap: "10px",
+              }}
+              className="section-group-2"
+            >
+              {certificates.map((certificate) => (
+                <div>
+                  <p className="header">{certificate.title}</p>
+                  <ul className="border-left">
+                    {certificate.points.map((point) => (
                       <li> {point} </li>
                     ))}
                   </ul>

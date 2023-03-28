@@ -417,4 +417,24 @@ export const projects = [
   },
 ];
 
-export const achievements = [{}];
+export const certificates = [
+  {
+    title: "Certificate of Excellence",
+    points: [
+      "Scoring highest marks (Top 10%) in Mid-Term Test June - October 2019 Session",
+    ],
+  },
+  {
+    title: "Certificate of Achievement",
+    points: [
+      "Attained GPA 4.00 UPU in October 2019 Examination",
+      "Attained GPA 4.00 UPU in May 2020 Examination",
+    ],
+  },
+  {
+    title: "Pertandingan Poster Dakwah Karnival Islam Di Hatiku",
+    points: [
+      'Awarded with silver medal for the performance in the competition with the topic of "Adab Belajar"',
+    ],
+  },
+];

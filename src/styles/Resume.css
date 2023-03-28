@@ -27,11 +27,11 @@ h3 {
 }
 
 .resume h1 {
-  font-size: 1.2rem;
+  font-size: 1.4rem;
 }
 
 .resume h2 {
-  font-size: 1rem;
+  font-size: 1.2rem;
   text-transform: none;
 }
 
@@ -41,7 +41,7 @@ h3 {
 .resume p {
   letter-spacing: normal;
   font-weight: 300;
-  font-size: 0.8rem;
+  font-size: 0.9rem;
 }
 
 .resume .icon-parag {
@@ -74,7 +74,7 @@ h3 {
 .resume .contacts {
   display: grid;
   grid-template-columns: 25px auto;
-  font-size: 0.9em;
+  font-size: 1em;
 }
 
 .accent {
@@ -121,7 +121,7 @@ h3 {
   width: 100%;
   display: flex;
   justify-content: space-between;
-  padding-right: 25px;
+  padding-right: 20px;
 }
 
 .resume .two-column {

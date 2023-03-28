@@ -8,6 +8,8 @@ import {
   IoLocationSharp,
   IoMail,
   IoLogoJavascript,
+  IoGameController,
+  IoColorPalette,
   IoLogoPython,
   IoLogoGithub,
   IoLogoCss3,
@@ -85,8 +87,8 @@ export const contactsData = [
   {
     icon: IoLocationSharp,
     label: "Location",
-    value: "Johor Bahru, MY",
-    link: "https://www.google.com/maps/place/Johor+Bahru,+Johor/@1.5448504,103.5695405,11z/data=!3m1!4b1!4m5!3m4!1s0x31da12c6d36b3a27:0xd5f4b21db593d4f5!8m2!3d1.492659!4d103.7413591",
+    value: "Kota Bharu, MY",
+    link: "https://www.google.com/maps/place/15200+Kota+Bharu,+Kelantan/@6.1190029,102.242175,13.96z/data=!4m6!3m5!1s0x31b6afd8841d6f33:0xbf251986c16f7589!8m2!3d6.124785!4d102.2543825!16zL20vMDI4enEx",
   },
 ];
 export const links = [
@@ -103,13 +105,13 @@ export const links = [
     link: "https://github.com/SulaimanYaacob",
     // value: "https://bit.ly/2SSBeH7",
   },
-  // {
-  //   icon: AiFillLinkedin,
-  //   label: "LinkedIn",
-  //   value: "linkedin.com/in/ibrahimyaacob",
-  //   link: "https://www.linkedin.com/in/ibrahim-yaacob",
-  //   // value: "https://bit.ly/3tYkJpQ",
-  // },
+  {
+    icon: AiFillLinkedin,
+    label: "LinkedIn",
+    value: "linkedin.com/in/sulaimanyaacob",
+    link: "https://www.linkedin.com/in/sulaiman-yaacob",
+    // value: "https://bit.ly/3tYkJpQ",
+  },
 ];
 
 // high level only
@@ -123,20 +125,20 @@ export const education = {
 
 export const languages = [
   {
-    name: "TypeScript",
+    name: "Typescript",
     years: "1",
     icon: SiTypescript,
     iconSize: "18px",
   },
   {
-    name: "JavaScript",
-    years: "2",
+    name: "Javascript",
+    years: "1",
     icon: IoLogoJavascript,
     iconSize: "22px",
   },
   {
     name: "C++",
-    years: "2",
+    years: "1",
     icon: SiCplusplus,
     iconSize: "18px",
   },
@@ -288,6 +290,16 @@ export const interest = [
     icon: CgPiano,
     iconSize: "18px",
   },
+  {
+    name: "Gaming",
+    icon: IoGameController,
+    iconSize: "18px",
+  },
+  {
+    name: "Art",
+    icon: IoColorPalette,
+    iconSize: "18px",
+  },
   // {
   //   name: "Startup Ideas",
   //   icon: HiOutlineLightBulb,
@@ -347,7 +359,7 @@ export const workExperiences = [
   // },
   {
     company: "Part-Time Freelancing",
-    period: "2023 - Present",
+    period: "2022 - Present",
     role: "Fullstack Developer (FE Focus)",
     description:
       "To build the confidence in web/software, development, I had to take up the freelancing job to gain more experience on how real-life development project works",
@@ -355,7 +367,15 @@ export const workExperiences = [
       {
         title: "AJXB",
         points: [
-          "Leading frontend development on a event management app, (similar to Eventbrite) using NextJS, React Query and MantineUI",
+          // "Leading frontend development on a event management app, (similar to Eventbrite) using NextJS, React Query and MantineUI",
+          "Junior Frontend Developer on a event management app, (similar to Eventbrite) using NextJS, SWR and MantineUI",
+          "Fetches data from the backend (Laravel) and renders it on the frontend using SWR",
+        ],
+      },
+      {
+        title: "Talaqqi",
+        points: [
+          "Handling bug fixes and feature development on a learning platform for islamic studies, (similar to udemy) using T3-Stack",
         ],
       },
     ],
@@ -389,4 +409,12 @@ export const projects = [
       "Student Welfare, A web-based application for helping students with their necessities. The app is built with T3 Stack: \nhttps://student-welfare.vercel.app/",
     ],
   },
+  {
+    title: "Personal Projects",
+    points: [
+      "Todo List, A simple todo list app built with NextJS and MantineUI: \nhttps://todo-list-roan-seven.vercel.app/",
+    ],
+  },
 ];
+
+export const achievements = [{}];

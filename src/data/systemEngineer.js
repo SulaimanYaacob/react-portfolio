@@ -6,35 +6,27 @@ import {
   IoLogoPython,
   IoLogoGithub,
   IoLogoCss3,
-  IoTrophyOutline,
   IoLogoReact,
   IoLogoTableau,
   IoAccessibilitySharp,
   IoCode,
   IoLogoNodejs,
   IoLogoElectron,
-  IoBarChart,
   IoVideocam,
 } from "react-icons/io5";
-import { FaGlobeAsia, FaHandHoldingHeart } from "react-icons/fa";
+import { FaHandHoldingHeart } from "react-icons/fa";
 import {
   SiPostgresql,
   SiMongodb,
   SiUbuntu,
-  SiNginx,
-  SiNextDotJs,
-  SiRedis,
-  SiSocketDotIo,
   SiDjango,
   SiMicrosoftexcel,
   SiTypescript,
-  SiAuth0,
-  SiRedux,
   SiAtlassian,
   SiVisualstudiocode,
 } from "react-icons/si";
 import { CgPiano } from "react-icons/cg";
-import { GiCookingPot, GiChickenOven } from "react-icons/gi";
+import { GiCookingPot } from "react-icons/gi";
 import { BsFillGearFill } from "react-icons/bs";
 import { HiOutlineLightBulb } from "react-icons/hi";
 

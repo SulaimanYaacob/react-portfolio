@@ -1,18 +1,10 @@
-import React from "react";
 import "../styles/Resume.css";
-import {
-  IoLocationOutline,
-  IoMail,
-  IoTrophyOutline,
-  IoCalendarOutline,
-  IoStarOutline,
-} from "react-icons/io5";
+import { IoLocationOutline, IoCalendarOutline } from "react-icons/io5";
 import {
   heading,
   contactsData,
   education,
   technologies,
-  engineering,
   languages,
   managerial,
   links,
@@ -20,7 +12,6 @@ import {
   workExperiences,
   projects,
   certificates,
-  // } from "../data/softwareEngineer.js";
 } from "../data/softwareEngineer.js";
 
 const Resume = () => {

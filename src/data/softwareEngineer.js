@@ -1,70 +1,31 @@
-import {
-  AiFillGithub,
-  AiTwotonePhone,
-  AiFillLinkedin,
-  AiOutlineDotChart,
-} from "react-icons/ai";
+import { AiFillGithub, AiTwotonePhone, AiFillLinkedin } from "react-icons/ai";
 import {
   IoLocationSharp,
   IoMail,
   IoLogoJavascript,
   IoGameController,
   IoColorPalette,
-  IoLogoPython,
   IoLogoGithub,
   IoLogoCss3,
-  IoTrophyOutline,
   IoLogoReact,
-  IoLogoTableau,
   IoAccessibilitySharp,
   IoCode,
   IoLogoNodejs,
-  IoLogoElectron,
-  IoBarChart,
-  IoVideocam,
   IoCamera,
 } from "react-icons/io5";
-import { FaGlobeAsia, FaHandHoldingHeart } from "react-icons/fa";
 import {
   SiPostgresql,
-  SiMongodb,
-  SiUbuntu,
-  SiNginx,
   SiNextdotjs,
-  SiGraphql,
-  SiRedis,
-  SiSocketdotio,
-  SiApollographql,
-  SiDjango,
-  SiMicrosoftexcel,
-  SiCypress,
-  SiCodesandbox,
   SiTypescript,
-  SiAuth0,
-  SiHasura,
-  SiRedux,
-  SiAtlassian,
   SiPrisma,
-  SiMicrosoftazure,
   SiPostman,
-  SiMaterialui,
-  SiStripe,
-  SiPaypal,
-  SiFirebase,
   SiCplusplus,
   SiFigma,
+  SiMantine,
+  SiTrpc,
+  SiJsonwebtokens,
 } from "react-icons/si";
 import { CgPiano } from "react-icons/cg";
-import {
-  GiCookingPot,
-  GiChickenOven,
-  GiBearHead,
-  GiHedgehog,
-} from "react-icons/gi";
-import { BsFillGearFill } from "react-icons/bs";
-import { HiOutlineLightBulb } from "react-icons/hi";
-import { GrCodeSandbox } from "react-icons/gr";
-import { TbLetterS, TbWebhook } from "react-icons/tb";
 
 export const heading = {
   name: "Sulaiman Yaacob",
@@ -166,7 +127,7 @@ export const technologies = [
   {
     name: "tRPC",
     years: "1 Years",
-    icon: SiCodesandbox,
+    icon: SiTrpc,
     iconSize: "18px",
   },
   {
@@ -184,7 +145,7 @@ export const technologies = [
   {
     name: "MUI/Mantine",
     years: "1 Years",
-    icon: SiMaterialui,
+    icon: SiMantine,
     iconSize: "18px",
   },
   {
@@ -209,6 +170,12 @@ export const technologies = [
     name: "Figma",
     years: "2 Years",
     icon: SiFigma,
+    iconSize: "18px",
+  },
+  {
+    name: "JsonWebToken",
+    years: "1 Years",
+    icon: SiJsonwebtokens,
     iconSize: "18px",
   },
 ];
@@ -323,40 +290,23 @@ export const interest = [
 ];
 
 export const workExperiences = [
-  // {
-  //   company: "Purplemana",
-  //   period: "April 2022 - Present",
-  //   role: "Sr. Front End Developer",
-  //   link: "https://purplemana.com",
-  //   description:
-  //     "Leading the frontend development for the feature-rich collectible trading card game marketplace with React, Typescript, Apollo GraphQL 3, Hasura and Styled-Components",
-  //   experiences: [
-  //     {
-  //       title: "",
-  //       points: [
-  //         "Working with the CEO, backend (Python and Hasura) and frontend engineers to rebuild the site from the Wordpress version covering product listing, marketplace, blogs to admin/merchant tools",
-  //         "Setup type-safe Graphql Codegen, state-management with Apollo 3, Graphql subscription (websocket) for notification system and other real-time features, Paypal integration, Sanity.io for content management, design system with Styled-Components, Posthog analytics and more..",
-  //       ],
-  //     },
-  //   ],
-  // },
-  // {
-  //   company: "Dyson Development Center",
-  //   period: "Feb 2018 - March 2022",
-  //   role: "Solution Developer",
-  //   description:
-  //     "Working in a team that supports Test Department in developing integrated systems solution to improve the efficiency, quality & security of data handling & practices.",
-  //   experiences: [
-  //     {
-  //       title: "",
-  //       points: [
-  //         "Leading, designing and develop an integrated framework to render test-data-collection template from Python Scripts using React, Node, Electron, Redux & MongoDB",
-  //         "Handles API integration to the Test Request, Asset Management system and MongoDB's Test Data Storage. Also, Using Node's Python-Shell module to run Python Scripts for template initialization and calculation requests",
-  //         "Asset management system, replicating from Asset Panda, using NextJS, Postgres and Prisma ORM, replicating on-shelf tool, Asset Panda",
-  //       ],
-  //     },
-  //   ],
-  // },
+  {
+    company: "Port of Pelabuhan Tanjung Pelepas (PTP)",
+    period: "Sep 2023 - Feb 2024",
+    role: "Internship - FullStack Developer",
+    link: "",
+    description:
+      "Building and experiencing new framework and platforms for responsive web development using low-code with Joget Dx and full-code with NextJS, Trpc, and Express",
+    experiences: [
+      {
+        title: "",
+        points: [
+          "Develop an internal web application utilizing Joget Dx to streamline the fire extinguisher inspection process at PTP, aiming to boost efficiency, enhance reporting accuracy, and facilitate issue tracking, thereby bolstering overall safety measures.",
+          "Create a PTP iConnect platform tailored to equip port personnel with an array of tools tailored for seamless operations within the port industry.",
+        ],
+      },
+    ],
+  },
   {
     company: "Part-Time Freelancing",
     period: "2022 - Present",
@@ -431,10 +381,10 @@ export const certificates = [
       "Attained GPA 4.00 UPU in May 2020 Examination",
     ],
   },
-  {
-    title: "Pertandingan Poster Dakwah Karnival Islam Di Hatiku",
-    points: [
-      'Awarded with silver medal for the performance in the competition with the topic of "Adab Belajar"',
-    ],
-  },
+  // {
+  //   title: "Pertandingan Poster Dakwah Karnival Islam Di Hatiku",
+  //   points: [
+  //     'Awarded with silver medal for the performance in the competition with the topic of "Adab Belajar"',
+  //   ],
+  // },
 ];

@@ -400,12 +400,6 @@ export const projects = [
     desc: "A web application with AI implemented features to help translate characters to braille",
     href: "https://intelli-braille-i645.vercel.app/",
   },
-  {
-    title: "Personal Projects",
-    points: [
-      "Todo List, A simple todo list app built with NextJS and MantineUI: \nhttps://todo-list-roan-seven.vercel.app/",
-    ],
-  },
 ];
 
 // export const certificates = [

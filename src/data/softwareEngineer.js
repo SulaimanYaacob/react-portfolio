@@ -19,11 +19,12 @@ import {
   SiTypescript,
   SiPrisma,
   SiPostman,
-  SiCplusplus,
   SiFigma,
   SiMantine,
   SiTrpc,
   SiJsonwebtokens,
+  SiSupabase,
+  SiTailwindcss,
 } from "react-icons/si";
 import { CgPiano } from "react-icons/cg";
 
@@ -79,30 +80,30 @@ export const links = [
 export const education = {
   course: "Software Engineering",
   university: "University Technology Malaysia",
-  cgpa: undefined,
-  period: "Oct 2020 - Present",
+  cgpa: 3.65,
+  period: "Oct 2020 - Feb 2025",
   location: "Johor, MY",
 };
 
 export const languages = [
   {
     name: "Typescript",
-    years: "1",
+    years: "2",
     icon: SiTypescript,
     iconSize: "18px",
   },
   {
     name: "Javascript",
-    years: "1",
+    years: "2",
     icon: IoLogoJavascript,
     iconSize: "22px",
   },
-  {
-    name: "C++",
-    years: "1",
-    icon: SiCplusplus,
-    iconSize: "18px",
-  },
+  // {
+  //   name: "C++",
+  //   years: "1",
+  //   icon: SiCplusplus,
+  //   iconSize: "18px",
+  // },
 ];
 
 export const technologies = [
@@ -173,9 +174,27 @@ export const technologies = [
     iconSize: "18px",
   },
   {
-    name: "JsonWebToken",
+    name: "JWT",
     years: "1 Years",
     icon: SiJsonwebtokens,
+    iconSize: "18px",
+  },
+  // {
+  //   name: "Drizzle",
+  //   years: "1 Years",
+  //   // icon: SiDrizzle,
+  //   iconSize: "18px",
+  // },
+  {
+    name: "Supabase",
+    years: "1 Years",
+    icon: SiSupabase,
+    iconSize: "18px",
+  },
+  {
+    name: "Tailwind",
+    years: "1 Years",
+    icon: SiTailwindcss,
     iconSize: "18px",
   },
 ];
@@ -301,7 +320,7 @@ export const workExperiences = [
       {
         title: "",
         points: [
-          "Develop an internal web application utilizing Joget Dx to streamline the fire extinguisher inspection process at PTP, aiming to boost efficiency, enhance reporting accuracy, and facilitate issue tracking, thereby bolstering overall safety measures.",
+          "Designed and developed an internal web app with Joget Dx, reducing manual inspection time by 40% and improving reporting accuracy for fire extinguisher checks.",
           "Create a PTP iConnect platform tailored to equip port personnel with an array of tools tailored for seamless operations within the port industry.",
         ],
       },
@@ -309,23 +328,36 @@ export const workExperiences = [
   },
   {
     company: "Part-Time Freelancing",
-    period: "2022 - Present",
+    period: "2022 - 2025",
     role: "Fullstack Developer (FE Focus)",
     description:
-      "To build the confidence in web/software, development, I had to take up the freelancing job to gain more experience on how real-life development project works",
+      "Worked on multiple freelance projects, focusing on frontend development and API integrations, to enhance real-world problem-solving skills.",
     experiences: [
       {
         title: "AJXB",
+        period: "Nov 2022 - Jan 2023",
         points: [
           // "Leading frontend development on a event management app, (similar to Eventbrite) using NextJS, React Query and MantineUI",
-          "Junior Frontend Developer on a event management app, (similar to Eventbrite) using NextJS, SWR and MantineUI",
-          "Fetches data from the backend (Laravel) and renders it on the frontend using SWR",
+          "Developed and maintained responsive UI components for web applications using Next.js, SWR, and Mantine UI.",
+          "Integrated APIs from Laravel backend and improved data fetching efficiency using SWR.",
+          "Collaborated with clients to refine UI/UX, ensuring a seamless user experience across multiple devices",
         ],
       },
       {
         title: "Talaqqi",
+        period: "Jan 2023 - May 2023",
+        href: "https://talaqqi-web-dev-ibrahimyaacob92.vercel.app/",
         points: [
-          "Handling bug fixes and feature development on a learning platform for islamic studies, (similar to udemy) using T3-Stack",
+          "Built and optimized authentication flows through onboarding process using T3-Stack (NextJS, tRPC, Prisma)",
+          "Improved application reliability by debugging and fixing critical UI/UX issues",
+        ],
+      },
+      {
+        title: "PTP iConnect - Remote",
+        period: "Oct 2024 - Jan 2025",
+        href: "https://i-connect-components.vercel.app/",
+        points: [
+          "Designed and developed a list of responsive and reusable UI components.",
         ],
       },
     ],
@@ -354,10 +386,19 @@ export const workExperiences = [
 
 export const projects = [
   {
-    title: "University Projects",
-    points: [
-      "Student Welfare, A web-based application for helping students with their necessities. The app is built with T3 Stack: \nhttps://student-welfare.vercel.app/",
-    ],
+    title: "Interactive IQRA",
+    desc: "An interactive real-time learning platform for students and tutors to engage in learning IQRA.",
+    href: undefined,
+  },
+  {
+    title: "Student Welfare",
+    desc: "A web-based application for helping students with their necessities",
+    href: "https://student-welfare.vercel.app/",
+  },
+  {
+    title: "Intellibraille",
+    desc: "A web application with AI implemented features to help translate characters to braille",
+    href: "https://intelli-braille-i645.vercel.app/",
   },
   {
     title: "Personal Projects",
@@ -367,24 +408,24 @@ export const projects = [
   },
 ];
 
-export const certificates = [
-  {
-    title: "Certificate of Excellence",
-    points: [
-      "Scoring highest marks (Top 10%) in Mid-Term Test June - October 2019 Session",
-    ],
-  },
-  {
-    title: "Certificate of Achievement",
-    points: [
-      "Attained GPA 4.00 UPU in October 2019 Examination",
-      "Attained GPA 4.00 UPU in May 2020 Examination",
-    ],
-  },
-  // {
-  //   title: "Pertandingan Poster Dakwah Karnival Islam Di Hatiku",
-  //   points: [
-  //     'Awarded with silver medal for the performance in the competition with the topic of "Adab Belajar"',
-  //   ],
-  // },
-];
+// export const certificates = [
+//   {
+//     title: "Certificate of Excellence",
+//     points: [
+//       "Scoring highest marks (Top 10%) in Mid-Term Test June - October 2019 Session",
+//     ],
+//   },
+//   {
+//     title: "Certificate of Achievement",
+//     points: [
+//       "Attained GPA 4.00 UPU in October 2019 Examination",
+//       "Attained GPA 4.00 UPU in May 2020 Examination",
+//     ],
+//   },
+//   // {
+//   //   title: "Pertandingan Poster Dakwah Karnival Islam Di Hatiku",
+//   //   points: [
+//   //     'Awarded with silver medal for the performance in the competition with the topic of "Adab Belajar"',
+//   //   ],
+//   // },
+// ];

@@ -1,5 +1,9 @@
 import "../styles/Resume.css";
-import { IoLocationOutline, IoCalendarOutline } from "react-icons/io5";
+import {
+  IoLocationOutline,
+  IoCalendarOutline,
+  IoTrophyOutline,
+} from "react-icons/io5";
 import {
   heading,
   contactsData,
@@ -11,7 +15,6 @@ import {
   interest,
   workExperiences,
   projects,
-  certificates,
 } from "../data/softwareEngineer.js";
 
 const Resume = () => {
@@ -44,9 +47,9 @@ const Resume = () => {
                 <p className="icon-parag">
                   <IoLocationOutline className="accent" /> {education.location}
                 </p>
-                {/* <p className="icon-parag">
+                <p className="icon-parag">
                   <IoTrophyOutline className="accent" /> CGPA: {education.cgpa}
-                </p> */}
+                </p>
               </div>
             </div>
             <div>
@@ -165,7 +168,11 @@ const Resume = () => {
                   >
                     {job.experiences.map((experience) => (
                       <div>
-                        <p className="header">{experience.title}</p>
+                        <div style={{ display: "flex", gap: "5px" }}>
+                          <p className="header">{experience.title}</p>
+                          {experience.period && " · "}
+                          <p className="accent">{experience.period}</p>
+                        </div>
                         <ul className="border-left">
                           {experience.points.map((point) => (
                             <li> {point} </li>
@@ -179,26 +186,30 @@ const Resume = () => {
             </div>
           </div>
           <div style={{ marginTop: "10px" }}>
-            <h1 style={{ marginBottom: "10px" }}>OTHER EXPERIENCES</h1>
+            <h1 style={{ marginBottom: "10px" }}>OTHER PROJECTS</h1>
             <div
               style={{
                 rowGap: "10px",
               }}
               className="section-group-2"
             >
-              {projects.map((project) => (
+              {projects.map(({ title, desc, href }) => (
                 <div>
-                  <p className="header">{project.title}</p>
+                  {href ? (
+                    <a target="_blank" href={href} rel="noreferrer">
+                      <p className="header">{title}</p>
+                    </a>
+                  ) : (
+                    <p className="header">{title}</p>
+                  )}
                   <ul className="border-left">
-                    {project.points.map((point) => (
-                      <li> {point} </li>
-                    ))}
+                    <li>{desc}</li>
                   </ul>
                 </div>
               ))}
             </div>
           </div>
-          <div style={{ marginTop: "10px" }}>
+          {/* <div style={{ marginTop: "10px" }}>
             <h1 style={{ marginBottom: "10px" }}>CERTIFICATES</h1>
             <div
               style={{
@@ -217,7 +228,7 @@ const Resume = () => {
                 </div>
               ))}
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>

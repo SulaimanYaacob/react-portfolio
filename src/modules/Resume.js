@@ -168,21 +168,28 @@ const Resume = () => {
                   >
                     {job.experiences.map((experience) => (
                       <div>
-                        <div style={{ display: "flex", gap: "5px" }}>
-                          {experience.href ? (
-                            <a
-                              href={experience.href}
-                              target="_blank"
-                              rel="noreferrer"
-                            >
+                        {experience.title && (
+                          <div
+                            style={{
+                              display: "inline-block",
+                              gap: "5px",
+                            }}
+                          >
+                            {experience.href ? (
+                              <a
+                                href={experience.href}
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                                <p className="header">{experience.title}</p>
+                              </a>
+                            ) : (
                               <p className="header">{experience.title}</p>
-                            </a>
-                          ) : (
-                            <p className="header">{experience.title}</p>
-                          )}
-                          {experience.period && " · "}
-                          <p className="accent">{experience.period}</p>
-                        </div>
+                            )}
+                            {experience.period && " · "}
+                            <p className="accent">{experience.period}</p>
+                          </div>
+                        )}
                         <ul className="border-left">
                           {experience.points.map((point) => (
                             <li> {point} </li>

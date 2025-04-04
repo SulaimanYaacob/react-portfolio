@@ -318,7 +318,7 @@ export const workExperiences = [
       "Building and experiencing new framework and platforms for responsive web development using low-code with Joget Dx and full-code with NextJS, Trpc, and Express",
     experiences: [
       {
-        title: "",
+        title: undefined,
         points: [
           "Designed and developed an internal web app with Joget Dx, reducing manual inspection time by 40% and improving reporting accuracy for fire extinguisher checks.",
           "Create a PTP iConnect platform tailored to equip port personnel with an array of tools tailored for seamless operations within the port industry.",

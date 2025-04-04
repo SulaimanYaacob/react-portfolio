@@ -41,7 +41,7 @@ h3 {
 .resume p {
   letter-spacing: normal;
   font-weight: 300;
-  font-size: 0.9rem;
+  font-size: 0.95rem;
 }
 
 .resume .icon-parag {
@@ -80,6 +80,7 @@ h3 {
 .accent {
   color: var(--accent);
   font-weight: 400 !important;
+  margin-bottom: 5px;
 }
 
 .resume .header {
@@ -116,6 +117,12 @@ h3 {
 .section-group-2 {
   row-gap: 15px;
 }
+
+.section-group-2 a p,
+p {
+  display: inline-block;
+}
+
 .section-group-2 a p:hover {
   color: var(--accent-link);
 }

@@ -150,9 +150,9 @@ const Resume = () => {
             <div className="section-group-2">
               {workExperiences.map((job) => (
                 <div>
-                  <a href={job.link}>
-                    <h2 className="header uppercase">{job.company}</h2>
-                  </a>
+                  {/* <a href={job.link}> */}
+                  <h2 className="header uppercase">{job.company}</h2>
+                  {/* </a> */}
                   <p className="subheader">
                     <span>{job.role}</span> {" · "}
                     <span>{job.period}</span>
